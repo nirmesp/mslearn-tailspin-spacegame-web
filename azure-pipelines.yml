@@ -1,10 +1,5 @@
 pool:
   vmImage: 'Ubuntu-16.04'
-git checkout -b build-pipeline
-In Visual Studio Code, modify azure-pipelines.yml as you see here:
-
-pool:
-  vmImage: 'Ubuntu-16.04'
   demands:
     - npm
 
